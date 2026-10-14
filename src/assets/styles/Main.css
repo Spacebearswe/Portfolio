@@ -2,7 +2,7 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.about-section {
+ .about-section {
     display: flex;
     gap: 30px;
     justify-content: flex-start;

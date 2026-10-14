@@ -33,31 +33,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   font-family: "Lato", sans-serif;
 }
 
-/* .navigation-bar {
-  justify-content: space-between;
-  background-color: #0d1116;
-
-  button {
-    font-size: 1.1rem;
-    font-family: "Lato", sans-serif;
-    text-transform: initial;
-    padding: 6px 10px;
-  }
-
-  svg {
-    cursor: pointer;
-  }
-} */
-
-/* .navigation-bar-responsive {
-  span, p {
-    color: #0d1116;
-    font-family: "Lato", sans-serif;
-  }
-} */
-
 .container {
-  margin-top: 64px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -74,14 +50,6 @@ p, a, h1, h2, h3, h4, h5, label, button {
     height: 450px;
     object-fit: cover;
   }
-}
-
-.mobile-menu-top {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  font-weight: bold;
 }
 
 .items-container {
@@ -120,10 +88,10 @@ p, a, h1, h2, h3, h4, h5, label, button {
     color: #0d1116;
   }
 
-  /* .chip {
+  .chip {
     background-color: rgba(0, 0, 0, 0.08);
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-  } */
+  }
 
   .vertical-timeline::before {
     background-color: rgba(0, 0, 0, 0.08);
@@ -141,9 +109,9 @@ p, a, h1, h2, h3, h4, h5, label, button {
     border-right: 7px solid rgba(0, 0, 0, 0.08) !important;
   }
 
-  /* .flex-chips .chip-title {
+  .flex-chips .chip-title {
     color: #0d1116;
-  } */
+  }
 }
 
 @media screen {
